@@ -1,0 +1,40 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (falls sensibel)
+# *.csv  # Auskommentiert, da wir HR_data.csv hochladen wollen
+
+# Logs
+*.log
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
