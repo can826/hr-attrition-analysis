@@ -13,12 +13,20 @@ Entwicklung eines Vorhersagemodells zur Identifikation von Kündigungsrisiken be
 - **Hauptrisikofaktor:** Überstunden (3x höheres Kündigungsrisiko)
 - **ROI der Maßnahmen:** 4,0x bei Überstunden-Intervention
 
+### 📊 Modell-Performance
+![ROC Curve](visualizations/figures/roc_curve.png)
+*Die ROC-Kurve zeigt eine AUC von 0.826 - unser Modell kann zuverlässig zwischen kündigenden und bleibenden Mitarbeitern unterscheiden*
+
 ## 🔍 Kernerkenntnisse
 
 ### Top-Risikofaktoren:
 1. **Überstunden** - Mitarbeiter mit Überstunden haben eine 30,5% Kündigungsrate (vs. 10,4%)
 2. **Häufige Geschäftsreisen** - 2,5x höheres Risiko
 3. **Bestimmte Jobrollen** - Sales Representatives und Lab Technicians besonders betroffen
+
+### 📈 Feature Importance Analyse
+![Feature Importance](visualizations/figures/feature_importance.png)
+*Die Analyse bestätigt: Überstunden (OverTime_Yes) ist mit Abstand der stärkste Prädiktor für Kündigungen*
 
 ### Schutzfaktoren:
 - Höhere Bildungsabschlüsse (Medical, Life Sciences)
@@ -30,6 +38,10 @@ Entwicklung eines Vorhersagemodells zur Identifikation von Kündigungsrisiken be
 - **Jährliche Fluktuationskosten:** 11,8 Mio. $
 - **Potenzielle Einsparungen:** 2,95 Mio. $/Jahr (bei 25% Reduktion)
 - **Break-Even:** < 6 Monate nach Implementierung
+
+### 💡 Business Insights Dashboard
+![Business Insights Dashboard](visualizations/figures/business_insights_dashboard.png)
+*Komplettübersicht: Risikoverteilung der Mitarbeiter, Kategorisierung, wichtigste Features und ROI-Analyse der vorgeschlagenen Maßnahmen*
 
 ## 🛠️ Verwendete Technologien
 
